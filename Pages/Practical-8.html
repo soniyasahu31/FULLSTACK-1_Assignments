@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+   
+    <style>
+     html{
+            scroll-padding-top: 80px;
+            scroll-behavior: smooth;
+        }
+    .head{
+    background-color: grey;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    position: fixed;
+    top: 0%; 
+    
+
+}
+
+.head ul{
+    /* margin-top: 10px; */
+    display: inline-flex;
+   
+
+    text-decoration: none;
+    list-style: none;
+    /* margin-top: 28px; */
+    text-align: center;
+    /* width: 100%; */
+    text-align: center;
+
+}
+.head ul li {
+    text-decoration: none;
+    /* margin-right: 150px; */
+    
+    text-align: center;
+    padding-left: 70px;
+    padding-right:70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    
+}
+.head ul li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.head ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.banner{
+    margin-top: 90px;
+    background-color: rgba(65, 190, 240, 0.39);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image: url("https://wethegeek.com/wp-content/uploads/2018/04/How-To-Set-Video-Wallpaper-On-Windows-10-PC-1024x640.jpg");
+     font-size: 90px; 
+     color:white;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 100vh;
+    
+}
+.section1{
+    text-align: center;
+}
+#team h1{
+  text-align: center;
+}
+.box{
+    
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    margin-right: 60px;
+    margin-left: 40px;
+    border-radius: 70%;
+}
+.box img{
+    border-radius: 50%;
+}
+
+    
+.section2{
+    
+    text-align: center;
+}
+.right{
+    background-color: grey;
+    width:640px;
+    height: 63vh;
+    float: left;
+    
+    color: white;
+}
+.right p{
+    text-align: justify;
+    padding: 15px;
+}
+.left
+{
+    
+    height: 70vh;
+    width: 50%;
+    float: right;
+}
+.left::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.up{
+    background-color: rgba(238, 13, 13, 0.959);
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    background-image: url("https://www.alert-software.com/hubfs/corporate_background_wallpaper.png"); 
+    background-size: 800px 130px;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    
+     height: 130px;
+    
+}
+.mid{
+   
+    background-color: rgba(238, 13, 13, 0.959);
+    width: 100%;
+    height: 149x;
+    margin-bottom: 10px;
+    background-image: url("https://cdn.architecturelab.net/wp-content/uploads/2020/03/Best-Home-Office-Desks-4.jpg"); 
+    background-size: 800px 140px;
+    background-repeat: no-repeat;
+    height: 130px;
+    image-rendering: pixelated;
+
+}
+.low{
+   
+    background-color: rgba(238, 13, 13, 0.959);
+    width: 100%;
+    height: 149px;
+    margin-bottom: 10px;
+    background-image: url("./bottom.png"); 
+     background-size: 800px 140px;
+    background-repeat: no-repeat;
+    height: 130px;
+    image-rendering: pixelated;
+
+}
+.section3 h1{
+    
+    text-align: center;
+    margin: auto;
+    margin-left: 400px;
+    
+
+}
+.section4 h3{
+    text-align: center;
+}
+.rec{
+    width: 210px;
+    height: 250px;
+    display: inline-flex;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 10px;
+    border: 2px solid red;
+    
+}
+
+.foot{
+    background-color: violet;
+    width: 100%;
+    height: 100px;
+}
+.foot  h3{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.foot a{
+    color: black;
+    text-align: center;
+    margin-top: 0%;
+    height: -50px;
+    display: inline-block;
+    margin-left: 650px;
+} 
+.container{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 0%;
+    
+}
+ .boxes{
+             width: 350px; 
+             height: 440px;
+             overflow: hidden;
+            
+             background-color:lightgrey;
+            border: 2px solid green;
+            margin-right: 20px;
+            padding: 10px;
+            text-align: justify;
+            border-radius: 5px; 
+            
+        }
+  .boxes img{
+            width: 100%;
+            height: 150px;
+            border-radius: 7px;
+        
+  }   
+  .container p
+        {
+            height: 150px;
+            overflow: hidden;
+        }
+        .btn a{
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            border: 2px solid black;
+            /* text-align: center; */
+            /* padding: 4px; */
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color:rgba(255, 182, 193, 0.501);
+            ;
+            color: red;
+        }
+        .btn{
+            text-align: center;
+        }
+        .btn a:hover{
+            background-color: black;
+            color: white;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+        }
+        .boxes h2{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="head">
+            <ul>
+                <l1><a href="#top"></a></l1>
+                <li><a href="#home" >HOME</a></li>
+                <li><a href="#about">ABOUT  US</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#tech">TECHNOLOGIES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <a id="home"><div class="banner"></a>
+            Practical-8
+        </div>
+        <div class="Section1">
+           <a id="team"><h1>Team Members</h1></a>
+            <div class="box" id="box1"><img src="../image/girl.jpg" alt="" srcset=""></div>
+            <div class="box">
+                <img src="../image/malesss.jpg" alt="" srcset="">
+            </div>
+            <div class="box">
+                <img src="../image/boy.jpg" alt="" srcset="">
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTMJxnbCiBUkguzrzVRNN-Kfwv9o_ZIBx0WNx1SUsKu1QsgMHbmNsUFpvVAw4Bk7lTaps&usqp=CAU" alt="image load" srcset="">
+            </div>
+        </div>
+        <div class="section2">
+            <a id="about"><h1>About Us</h1></a>
+            <div class="right">
+                <h1>About Projects</h1>
+                <p style="color: white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat dolore blanditiis corporis? Quia cumque explicabo tempora architecto necessitatibus sapiente est hic labore alias nisi et deleniti itaque, reprehenderit natus eveniet iure enim vitae. Perspiciatis vitae commodi adipisci sit quibusdam at, natus sequi pariatur temporibus ut quo dignissimos fugit porro itaque molestias repellat dolores odio. Incidunt culpa accusantium illum, saepe laudantium a, eveniet cumque alias nostrum doloribus veritatis animi nam minus labore quis. Sunt quasi repellat maiores esse quaerat ratione sed. Obcaecati ipsum quos facilis, culpa atque eum maiores ab eos quas, quia officia dicta dolorum voluptas suscipit, nulla dolorem numquam.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deserunt fugit quaerat veniam nobis odit, consequatur repudiandae nemo reiciendis suscipit. Quisquam et soluta aperiam doloribus ipsum sapiente praesentium laudantium iure natus officiis! Dolorum ipsam corrupti nihil dolorem eos aliquam temporibus, possimus soluta eum, accusantium consequuntur voluptatibus dicta rerum id excepturi ab doloremque perferendis error tenetur quod! Magnam, atque voluptate? Error,Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab veritatis numquam perspiciatis magnam delectus voluptatem rem amet ex corporis similique!
+                </p>
+            </div>
+            <div class="left">
+                
+                <div class="up">
+                    <h1 style="display: inline-block; padding-left: 45pxline;color:rgb(240, 13, 25);font-weight: 900;top: 0%;">Project-1</h1>
+                     </div>
+                <div class="mid">
+                    <h1 style="display: inline-block; padding-left: 50px; color:rgb(240, 13, 25);font-weight: 900; top: 0%;">Project-2</h1>
+                    
+                </div>
+                <div class="low">
+                    <h1 style="display: inline-block; padding-left: 50px;top:0%;color:rgb(240, 13, 25);font-weight: 900;">Project-3</h1>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="section3">
+            <a id="tech"><h1 style="margin-top: 480px; text-align: center;">Technologies Used</h1></a>
+        
+            <div class="container">
+                <div class="boxes" id="html">
+                    <div class="image">
+                        <img src="https://miro.medium.com/max/800/1*28-1lYrYTQoLhi87mllgBw.png" alt="image laoding" srcset="">
+                    </div>
+                    <h2>Introduction to html</h2>
+                    <div class="para">
+                    <p >
+                        The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.An HTML element is a type of HTML (Hypertext Markup Language) document component, one of several types of HTML nodes (there are also text nodes, comment nodes and others).[vague] HTML document is composed of a tree of simple HTML nodes, such as text nodes, and HTML elements, which add semantics and formatting to parts of document (e.g., make text bold, organize it into paragraphs, lists and tables, or embed hyperlinks and images). Each element can have HTML attributes specified. Elements can also have content, including other elements and text.  
+                    </p>   
+                </div>
+                <div class="btn">
+                    <a href="../Front-End/Html.html">Read More</a>
+                </div>  
+                </div>
+                <div class="boxes" id="css">
+                    <div class="image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEqQXHuiMCVe5tdVPLM-kchKDp-ETgtk50gg&usqp=CAU" alt="" srcset="">
+                    </div>
+                    <h2>Introduction to css</h2>
+    <div class="para">
+    <p >
+        Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+    </p>
+</div>
+<div class="btn">
+    <a href="../Front-End/Css.html">Read More</a>
+</div>
+
+                </div>
+                <div class="boxes" id="js">
+                    <div class="image">
+                        <img src="https://prod-discovery.edx-cdn.org/media/course/image/c50943b5-3375-4d50-9f91-911930551603-5703bb2a02c8.small.png" alt="" srcset="">
+                    </div>
+                    <h2>Introduction to JavaScript</h2>
+    <div class="para">
+
+    <p >
+        
+
+        JavaScript (/ˈdʒɑːvəˌskrɪpt/)[9], often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.[10] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.[11] Over 97% of websites use it client-side for web page behavior,[12] often incorporating third-party libraries.[13] Most web browsers have a dedicated JavaScript engine to execute the code on the user's device.As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+    </p>
+</div>
+<div class="btn">
+    <a href="../Front-End/Javasript.html">Read More</a>
+</div>
+
+                </div>
+                <div class="boxes" id="boot">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/I7CfaDYzTVM/maxresdefault.jpg" alt="" srcset="">
+                    </div>
+                    <h2>Introduction to Bootstrap</h2>
+    <div class="para">
+    <p >
+        Bootstrap, originally named Twitter Blueprint, was developed by Mark Otto and Jacob Thornton at Twitter as a framework to encourage consistency across internal tools. Before Bootstrap, various libraries were used for interface development, which led to inconsistencies and a high maintenance burden. According to Twitter developer Mark Otto:A super small group of developers and I got together to design and build a new internal tool and saw an opportunity to do something more. Through that process, we saw ourselves build something much more substantial than another internal tool. Months later, we ended up with an early version of Bootstrap as a way to document and share common design patterns and assets within the company.[3After a few months of development by a small group, many developers at Twitter began to contribute to the project as a part of Hack Week, a hackathon-style week for the Twitter development team. It was renamed from Twitter Blueprint to Bootstrap, and released as an open source project on August 19, 2011.[4] It has continued to be maintained by Mark Otto, Jacob Thornton, and a small group of core developers, as well as a large community of contributors</p>
+    </div>
+    <div class="btn">
+        <a href="../Front-End/Bootstrap.html">Read More</a>
+    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="footer">
+            <a id="contact"><h1 style="text-align: center;">Contact</h1></a>
+            <div class="foot">
+                <h3>Website Template for Practical-8</h3>
+                <a href="#" id="top">Back to top</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
